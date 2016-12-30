@@ -1,0 +1,18 @@
+<suite name="Testing" verbose="10">
+  <!-- parameter name="selenium.host" value="localhost" />
+  <parameter name="selenium.port" value="3737" />
+  <parameter name="selenium.browser" value="*firefox" />
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/" / -->>
+ 
+  <test name="RightMove integration tests" preserve-order="true">
+    
+  <package>
+  
+  <package name="com.sample.rightmove"/>
+   <classes>
+       <class name="tests.RightMoveTests" />
+   </classes>
+  
+  </package>
+  </test>
+</suite>
